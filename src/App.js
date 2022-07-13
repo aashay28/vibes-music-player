@@ -60,7 +60,7 @@ const App = () => {
   return (
     <AppContainer libraryStatus={libraryStatus}>
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
-      <Song currentSong={currentSong} />
+      <Song currentSong={currentSong} isPlaying={isPlaying} />
       <Player
         isPlaying={isPlaying}
         setIsPlaying={setIsPlaying}
