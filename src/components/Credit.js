@@ -3,16 +3,10 @@ import styled from "styled-components";
 const Credit = () => {
   return (
     <CreditContainer>
-      {/* <Link href="https://www.wilsonle.me" target="_blank">
-				Made by Wilson
-			</Link> */}
       <Link href='' target='_blank'>
         Aashay .S
       </Link>
       <br></br>
-      {/* <Link href="https://github.com/WilsonLe/react-music-player" target="_blank">
-				Github repository
-			</Link> */}
     </CreditContainer>
   );
 };

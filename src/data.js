@@ -1,6 +1,7 @@
 function chillHop() {
   return [
     {
+      id: 1,
       name: "Pasoori",
       cover:
         "https://res.cloudinary.com/nt-tech/image/upload/v1657624896/musicPlayer/banner/Pasoori-Punjabi-2022-20220203181058-500x500_mwcnyz.jpg",
@@ -12,6 +13,7 @@ function chillHop() {
       active: true,
     },
     {
+      id: 2,
       name: "40 Minutes Of Hindi Lofi Songs",
       cover:
         "https://res.cloudinary.com/nt-tech/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,b_rgb:262c35/v1657686525/musicPlayer/banner/lofi.jpg",

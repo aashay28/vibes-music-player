@@ -94,6 +94,17 @@ const App = () => {
 
 const AppContainer = styled.div`
   transition: all 1s ease;
+  background-image: linear-gradient(
+    to bottom,
+    #abbdff,
+    #b3aced,
+    #b99ad8,
+    #bc8ac0,
+    #bb7aa8
+  );
+  min-height: 60vh;
+  height: 100vh;
+  max-height: 100vh;
   margin-left: ${(p) => (p.libraryStatus ? "20rem" : "0")};
   @media screen and (max-width: 768px) {
     margin-left: 0;
